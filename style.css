@@ -1,0 +1,302 @@
+/**************************
+***Common
+**************************/
+
+body {
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+img.background {
+  width: 100%;
+  margin: 0;
+}
+
+h1 {
+  font-size: 10vw;
+  margin: 0;
+  font-weight: lighter;
+}
+h2 {
+  font-size: 3vw;
+  margin: 0;
+  font-weight: lighter;
+}
+
+h3 {
+  display: block;
+  font-size: 1vw;
+  padding-top: 11px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 7vw;
+  font-weight: bold;
+  color: #617193;
+}
+
+p {
+  margin: 0;
+  line-height: 3vw;
+  padding-top: 12px;
+}
+
+li {
+  padding: 5px 10px 5px 58px;
+  text-decoration: none;
+  list-style: none;
+}
+
+/**************************
+***Main
+**************************/
+
+.main {
+  position: relative;
+}
+
+.main .header {
+  position: absolute;
+  top: 10px;
+  left: 20%;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .header img {
+  width: 40px;
+}
+
+.main .header ul {
+  display: flex;
+}
+
+.main .header li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.main .header li a {
+  color: rgb(240, 238, 238);
+  font-style: italic;
+}
+
+.main img.text {
+  position: absolute;
+  top: 130px;
+  left: 30%;
+  width: 40%;
+  z-index: 1;
+}
+.main img.left {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 51%;
+  z-index: 2;
+}
+.main img.right {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 53%;
+  z-index: 3;
+}
+
+.header2 {
+  position: relative;
+  top: 10px;
+  left: 20%;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.header2 img {
+  width: 150px;
+}
+
+.header2 ul {
+  display: flex;
+}
+
+.header2 li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.header2 li a {
+  color: rgb(46, 46, 46);
+  font-style: italic;
+}
+
+ul.nav.navbar-nav {
+  display: flex;
+  justify-content: start;
+  padding-left: 19vw;
+  margin: 0;
+  background-color: #414f6a;
+  height: 3vw;
+}
+
+/**************************
+***Second
+**************************/
+
+.second {
+  position: relative;
+}
+
+img.Second-background {
+  width: 100%;
+  height: 100%;
+}
+
+.second .header3 {
+  position: absolute;
+  justify-content: space-around;
+  display: flex;
+  top: 9vw;
+  left: 30vw;
+}
+
+.second .text {
+  position: absolute;
+  bottom: -7vw;
+}
+.second .text1 {
+  position: absolute;
+  padding-left: 20vw;
+}
+
+.second .text2 {
+  position: absolute;
+  display: flex;
+  top: 7vw;
+  width: 63vw;
+  padding-left: 50vw;
+  font-family: Avenir;
+  font-weight: lighter;
+}
+
+.third {
+  margin-top: 4vw;
+  margin-right: 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+.third .text {
+  margin-left: 5vw;
+}
+
+.third .text1 {
+  display: flex;
+  margin-left: -3vw;
+  margin-top: 4vw;
+}
+
+.text2 {
+  width: 39vw;
+  margin-right: 0vw;
+  margin-left: 5vw;
+  padding-left: 0vw;
+}
+
+li.fis {
+  background-color: #b0b4bf;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+  font-size: 25px;
+}
+
+.navbar-inverse .navbar-nav > li.fis > a {
+  color: #424e67;
+}
+
+.box {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  width: 66%;
+  justify-content: space-around;
+  top: 1vw;
+}
+
+.tpbackground {
+  position: absolute;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 23%;
+}
+
+img {
+  width: 16vw;
+}
+.btmbackground {
+  width: 100%;
+  background-color: #414f6a;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Foot-a {
+  width: 100%;
+  background-color: rgb(65, 79, 106);
+  position: absolute;
+  height: 5vw;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+img .footer {
+  width: 9vw;
+  margin-inline-start: 10vw;
+}
+
+.block {
+  position: absolute;
+  background-color: rgba(216, 216, 216, 0.85);
+  width: 260px;
+  z-index: 2;
+  height: 190px;
+  left: 280px;
+  top: 60px;
+  text-align: center;
+  opacity: 0.4;
+}
+
+.block .schedule {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  text-indent: initial;
+  border-spacing: 10px;
+  border-color: grey;
+}
+
+.lastpage {
+  height: 80vh;
+  position: relative;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+img.footer {
+  width: 11vw;
+  margin-inline-start: 10vw;
+}
