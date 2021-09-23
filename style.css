@@ -2,9 +2,11 @@
 *** Common ***
 *******************/
 
+html,
 body {
   margin: 0;
   width: 100% auto;
+  height: 100% auto;
   font-family: sans-serif;
 }
 
@@ -17,12 +19,17 @@ a {
   text-decoration: none;
 }
 
+@media screen and (max-width: 1175px max-height: 1175px) {
+  body {
+    width: 100%;
+  }
+}
 /*******************
 *** Main ***
 *******************/
 
 .main .background {
-  width: 100%;
+  width: 100% auto;
   height: 90vh;
 }
 .main {
@@ -31,7 +38,7 @@ a {
   position: relative;
   background: url("img/background-main.png");
   background-attachment: fixed;
-  background-size: 100vw 100vh;
+  background-size: 100% 100%;
 }
 .main .header {
   position: absolute;
@@ -68,12 +75,12 @@ a {
   width: 40%;
   position: absolute;
   left: 30%;
-  top: 100px;
+  top: 26%;
   z-index: 1;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1175px max-height: 1175px) {
   .main {
-    height: 50vh;
+    height: 65vh;
   }
 
   .main .moon {
@@ -132,7 +139,7 @@ a {
   width: 138px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1175px max-height: 1175px) {
   .header2 {
     left: 4%;
   }
@@ -146,7 +153,7 @@ a {
   }
 
   .header2 .nav2 li {
-    padding: 9px;
+    padding: 7px;
     font-size: 11px;
   }
 
@@ -222,14 +229,7 @@ a {
 .history .gallary .photos li {
   display: inline;
 }
-@media screen and (max-width: 600px) {
-  body {
-    width: 100%;
-  }
-
-  .main {
-    width: auto;
-  }
+@media screen and (max-width: 1175px max-height: 1175px) {
   .history .number1 {
     left: 10%;
     font: 120px sans-serif;
@@ -293,7 +293,7 @@ a {
   line-height: 36px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1175px max-height: 1175px) {
   .header3 .number2 {
     left: 5%;
     top: 4%;
@@ -371,7 +371,7 @@ a {
   padding: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1175px max-height: 1175px) {
   .climb .box {
     height: 250px;
     top: 12%;
@@ -409,7 +409,7 @@ a {
   width: 120px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px max-height: 1175px) {
   .footer .contend {
     top: 7%;
     width: 85%;
