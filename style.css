@@ -19,6 +19,18 @@ a {
   text-decoration: none;
 }
 
+.color {
+  background-color: rgb(255, 255, 255) !important;
+}
+
+.dots {
+  height: 6px;
+  width: 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 @media screen and (max-width: 1175px max-height: 1175px) {
   body {
     width: 100%;
@@ -214,17 +226,24 @@ a {
   z-index: 1;
 }
 
+.history .gallary .menu {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+}
+
 .history .gallary .photos {
-  margin-right: auto;
   list-style: none;
   display: flex;
+  width: max-content;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-between;
 }
 .history .gallary .photos img {
-  padding: 10px;
-  height: 150px;
-  width: 200px;
+  padding: 12%;
+  height: 17vh;
+  width: 85%;
+  padding-top: 1%;
 }
 .history .gallary .photos li {
   display: inline;
