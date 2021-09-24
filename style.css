@@ -31,7 +31,7 @@ a {
   display: inline-block;
 }
 
-@media screen and (width: 600px) {
+@media screen and (max-width: 600px) {
   body {
     width: 100%;
   }
@@ -90,7 +90,7 @@ a {
   top: 26%;
   z-index: 1;
 }
-@media screen and (width: 600px) {
+@media screen and (max-width: 600px) {
   .main {
     height: 65vh;
   }
@@ -151,7 +151,7 @@ a {
   width: 138px;
 }
 
-@media screen and (width: 600px) {
+@media screen and (max-width: 600px) {
   .header2 {
     left: 4%;
   }
@@ -252,7 +252,47 @@ a {
 .history .gallary .photos li {
   display: inline;
 }
-@media screen and (width: 600px) {
+
+@media screen and (max-width: 400px) {
+  .history .number1 {
+    position: absolute;
+    left: 3%;
+    font: 150px sans-serif;
+    top: 0%;
+    color: rgb(65, 81, 107);
+    opacity: 0.45;
+  }
+
+  .history .heading1 {
+    font-size: 50px;
+    position: absolute;
+    left: 32%;
+    top: 7%;
+    color: #41516b;
+  }
+
+  .history .h1text {
+    position: absolute;
+    left: 4%;
+    top: 22%;
+    color: #2e2d2d;
+    line-height: 20px;
+  }
+
+  .history .gallary .photos {
+    left: 4%;
+  }
+
+  .history .gallary {
+    height: 14%;
+  }
+
+  .history .gallary .menu {
+    left: 48%;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .history .number1 {
     left: 10%;
     font: 120px sans-serif;
@@ -328,7 +368,7 @@ a {
   line-height: 36px;
 }
 
-@media screen and (width: 600px) {
+@media screen and (max-width: 600px) {
   .header3 .number2 {
     left: 5%;
     top: 4%;
@@ -408,7 +448,7 @@ a {
   padding: 10px;
 }
 
-@media screen and (width: 600px) {
+@media screen and (max-width: 600px) {
   .climb .box {
     height: 250px;
     top: 12%;
@@ -446,7 +486,7 @@ a {
   width: 120px;
 }
 
-@media screen and (width: 600px) {
+@media screen and (max-width: 600px) {
   .footer .contend {
     top: 7%;
     width: 85%;
